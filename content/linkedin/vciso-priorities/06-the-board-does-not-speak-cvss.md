@@ -19,4 +19,4 @@ Sharp and Lambros provide the practical toolkit. Storytelling is more effective 
 
 Here is Engel at his best. Do not tell the business they cannot launch the new feature without a security review. Ask what the feature does for customers. Explain the risks in terms of the business outcome. Propose controls that enable the launch while managing the risk. The business hears "how we can do this safely" instead of "no."
 
-For the vCISO, this converges on a simple principle. If you cannot express a risk in terms the CFO uses to make other decisions, you have not communicated the risk. You have performed the ritual of communication without the substance. The board calls it a waste of time. The graph calls it the illusion of communication. Same thing.
+For the vCISO, this converges on a simple principle. If you cannot express a risk in terms the CFO uses to make other decisions, you have not communicated the risk. You have performed the ritual of communication without the substance. The board calls it a waste of time.

@@ -11,17 +11,13 @@ series_order: 1
 
 Most security problems are actually communication problems wearing a tool-shaped mask.
 
-This is not a hot take. It is the single most structural finding from a knowledge graph I built across 33 books and standards on security leadership. Decomposed 1,276 discrete claims. Connected them through 1,572 typed edges. Analyzed the graph for convergence.
-
-The top finding: the illusion of communication.
-
-Hubbard and Seiersen documented this in *How to Measure Anything in Cybersecurity Risk*. Two independent research groups. Budescu gave climate scientists verbal probability labels with explicit numerical definitions. "Very Unlikely" was defined as less than 10 percent probability. The scientists' interpretations ranged from 3 percent to 75 percent. Two-thirds of responses violated the guideline. Heuer replicated the finding with intelligence analysts. Same result.
+Hubbard and Seiersen call this "the illusion of communication" in *How to Measure Anything in Cybersecurity Risk*. They cite two independent research groups. Budescu gave climate scientists verbal probability labels with explicit numerical definitions. "Very Unlikely" was defined as less than 10 percent probability. The scientists' interpretations ranged from 3 percent to 75 percent. Two-thirds of responses violated the guideline. Heuer replicated the finding with intelligence analysts. Same result.
 
 When people use words like "low," "medium," and "high" to describe risk, they believe they have communicated. They have not.
 
-The board thinks "medium risk" means one thing. The analyst means another. The engineer thinks the server is patched. The patch failed three weeks ago. The SOC analyst thinks the alert is triaged. The alert is in a queue of ten thousand.
+The problem cascades across every domain. The board thinks "medium risk" means one thing. The analyst means another. The engineer thinks the server is patched. The patch failed three weeks ago. The SOC analyst thinks the alert is triaged. The alert is in a queue of ten thousand.
 
-These are not separate problems. They are five manifestations of one problem.
+These are not separate problems. They are five manifestations of the same failure. People believe they have communicated when they have not. People believe they know the state of the system when they do not.
 
 For a vCISO, this reframes the entire engagement. In the first meeting with a new client, do not ask about their tool stack. Do not ask for their compliance certificates. Ask: what do you believe is true about your security posture, and how do you know?
 

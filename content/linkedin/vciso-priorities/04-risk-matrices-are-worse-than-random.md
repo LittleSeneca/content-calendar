@@ -13,7 +13,7 @@ The evidence against ordinal risk matrices is not ambiguous. Three independent r
 
 The psychology of scales. Budescu's climate scientists and Heuer's intelligence analysts interpreted the same verbal labels across ranges spanning orders of magnitude. The mathematics. Cox's "risk matrix theorem" proved that risk matrices can be, under certain mathematically provable conditions, worse than random. The same input risk can map to different matrix cells, and different risks can map to the same cell, producing rank reversals. The empirical studies. Hubbard and Evans found that 76 percent of ordinal responses cluster on two values, reducing a 5x5 matrix to effectively 2x2.
 
-In the graph I built, 68 claims support the Hubbard-Seiersen position against 2 supporting the legacy ordinal approach. This is not a debate the graph is divided on.
+Hubbard and Seiersen catalog this evidence in *How to Measure Anything in Cybersecurity Risk*. It is not a close call.
 
 What replaces ordinal methods? Calibrated estimation. Untrained experts, including cybersecurity professionals, are systematically overconfident in their probability estimates. Calibration training produces measurable improvement. Experts go from 90 percent confidence intervals that capture the true value 40 percent of the time to intervals that capture it 80 to 90 percent of the time.
 

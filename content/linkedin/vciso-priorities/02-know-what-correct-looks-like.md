@@ -11,7 +11,7 @@ series_order: 2
 
 If the vCISO's master problem is that nobody knows what they are measuring, the operational answer is straightforward. Encode the intended state and compare against it continuously.
 
-Twenty-eight independent sources converge on this. Google's SRE book. Adkins et al. in *Building Secure and Reliable Systems*. The mechanism: encode intended state as a set of packages with checksums, continuously monitor actual filesystem state, compare centrally, repair deviations automatically.
+Adkins et al. make the case in *Building Secure and Reliable Systems*. Google's SRE book reinforces it. The mechanism: encode intended state as a set of packages with checksums, continuously monitor actual filesystem state, compare centrally, repair deviations automatically.
 
 One mechanism catches random bit flips, accidental misconfigurations, buggy deployments, and malicious tampering. It unifies monitoring, compliance verification, incident detection, and recovery validation into a single operational principle.
 
