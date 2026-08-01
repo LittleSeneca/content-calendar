@@ -15,7 +15,7 @@ Their answers will range from 3 percent to 75 percent. Two-thirds of them will v
 
 David Budescu ran this experiment with climate scientists. Richards Heuer replicated it with intelligence analysts at the CIA. Same words, same definitions, same result.
 
-Douglas Hubbard and Richard Seiersen, in *How to Measure Anything in Cybersecurity Risk* (Wiley, 2016), call this "the illusion of communication." Hubbard is a decision scientist who wrote the book on measuring intangibles. Seiersen is a former CISO.
+Douglas Hubbard and Richard Seiersen, in *How to Measure Anything in Cybersecurity Risk* (Wiley, 2016), call this "the illusion of communication." Hubbard is a decision scientist whose work on applied information economics established the methodology for measuring intangibles across business, government, and military contexts. Seiersen is a former CISO.
 
 The board sees "medium risk" and hears something the analyst never said. A server everyone believes is patched has been exposed for three weeks. The two sides never realize they are operating from different definitions.
 
