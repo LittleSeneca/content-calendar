@@ -9,7 +9,7 @@ series: vciso-priorities
 series_order: 8
 ---
 
-A vCISO is not a part-time CISO doing the same job in fewer hours. The role delivers something different.
+A vCISO operates differently than a part-time CISO doing the same job in fewer hours.
 
 A vCISO is a measurement and communication layer between technical security operations and business governance. Not the person operating the SIEM. Not the person writing Terraform modules. The person who ensures that what the board believes about risk matches what the security team knows to be true.
 
