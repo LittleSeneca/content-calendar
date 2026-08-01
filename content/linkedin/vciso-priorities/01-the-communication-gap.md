@@ -17,7 +17,7 @@ David Budescu ran this experiment with climate scientists. Richards Heuer replic
 
 Douglas Hubbard and Richard Seiersen, in *How to Measure Anything in Cybersecurity Risk* (Wiley, 2016), call this "the illusion of communication." Hubbard is a decision scientist who wrote the book on measuring intangibles. Seiersen is a former CISO.
 
-Now apply this to your organization. When the board sees "medium risk," they hear one thing. The analyst meant another. The engineer thinks the server is patched. The patch failed three weeks ago. The SOC analyst triaged the alert. It is buried in a queue of ten thousand.
+The board sees "medium risk" and hears something the analyst never said. A server everyone believes is patched has been exposed for three weeks. The two sides never realize they are operating from different definitions.
 
 For a security manager or vCISO walking into a new engagement, this changes the first conversation. Do not lead with the tool stack. Do not lead with compliance certificates. Ask what the client believes is true about their security posture, and how they know.
 
