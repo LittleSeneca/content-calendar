@@ -15,6 +15,6 @@ Heather Adkins and the Google SRE team make this case in *Building Secure and Re
 
 Prestaging means forensic agents deployed on endpoints before the breach. Backup hardware procured and configured before the primary fails. Fallback access paths established before the VPN goes down. Escalation procedures defined, tested, and updated before the 3 a.m. phone call. Procurement contracts negotiated before you need emergency shipping.
 
-The security manager who prestages response capacity delivers something that compounds. During an incident, practiced teams execute. They do not stop to debate procedure. The difference between a two-hour containment and a two-week recovery is often whether the team had run the procedure before they needed it, not whether they had better tools.
+The security leader who prestages response capacity delivers something that compounds. During an incident, practiced teams execute. They do not stop to debate procedure. The difference between a two-hour containment and a two-week recovery is often whether the team had run the procedure before they needed it, not whether they had better tools.
 
 In the first engagement, before recommending any new tool, verify that the client has prestaged response capacity. Do they have forensic agents deployed? Tested recovery procedures? Escalation paths that work when primary communication channels are down? If the answer to any of these is no, fixing that is higher-leverage than any product you could recommend.

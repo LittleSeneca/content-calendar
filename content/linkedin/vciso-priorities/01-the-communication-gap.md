@@ -19,6 +19,6 @@ Douglas Hubbard and Richard Seiersen, in *How to Measure Anything in Cybersecuri
 
 A CISO presents a risk register to the board. Several rows marked "medium." The CISO means these require monitoring and have compensating controls in place. The board hears "nothing to worry about." Six months later one materializes. The board is surprised. The CISO is surprised they are surprised. Neither side realized the word "medium" had carried two different definitions across the table.
 
-For a vCISO, this reframes the scoping conversation. Do not lead with the tool stack. Do not lead with compliance certificates. Ask what the client believes is true about their security posture, and how they know.
+For a security leader, this reframes the scoping conversation. Do not lead with the tool stack. Do not lead with compliance certificates. Ask what the client believes is true about their security posture, and how they know.
 
 You are delivering the ability to see the distance between belief and reality. No tool vendor sells that, and no framework requires it.

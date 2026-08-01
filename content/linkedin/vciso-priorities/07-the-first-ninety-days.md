@@ -9,7 +9,7 @@ series: vciso-priorities
 series_order: 7
 ---
 
-The vCISO engagement clock starts before the first invoice. Here is what to deliver, and why each phase earns the next.
+The engagement clock starts before the first invoice. Here is what to deliver, and why each phase earns the next.
 
 Week one. Ask three questions. What does the client believe is true about their security posture, and how do they know? If the risk register is red, yellow, and green with no probabilities, they do not know their risk. If the incident response plan has not been tested in six months, they are not prepared to respond. If they cannot articulate what "correct" looks like for critical systems, they cannot detect drift. The deliverable is not a report. It is the client's first clear picture of what they do not know. That is worth more than any tool evaluation.
 
