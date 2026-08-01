@@ -19,6 +19,6 @@ Douglas Hubbard and Richard Seiersen, in *How to Measure Anything in Cybersecuri
 
 The board sees "medium risk" and hears something the analyst never said. A server everyone believes is patched has been exposed for three weeks. The two sides never realize they are operating from different definitions.
 
-For a security manager or vCISO walking into a new engagement, this changes the first conversation. Do not lead with the tool stack. Do not lead with compliance certificates. Ask what the client believes is true about their security posture, and how they know.
+For a vCISO, this reframes the scoping conversation. Do not lead with the tool stack. Do not lead with compliance certificates. Ask what the client believes is true about their security posture, and how they know.
 
 You are delivering the ability to see the distance between belief and reality. No tool vendor sells that, and no framework requires it.
