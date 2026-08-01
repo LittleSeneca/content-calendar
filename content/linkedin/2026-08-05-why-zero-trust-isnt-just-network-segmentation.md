@@ -11,7 +11,7 @@ scheduled_time: "08:00"
 
 Most people hear "Zero Trust" and think microsegmentation. That's maybe 20% of the picture.
 
-The real shift is **identity-first**. Every access decision starts with "who are you and what should you see" — not "what network are you on."
+The real shift is **identity-first**. Every access decision starts with "who are you and what should you see," not "what network are you on."
 
 ## Three things most orgs miss:
 

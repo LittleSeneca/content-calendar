@@ -11,7 +11,7 @@ series_order: 1
 
 Give a group of intelligent professionals a set of words with agreed-upon definitions. "Very Unlikely" means less than 10 percent probability. Everyone understands. Now ask them to apply those words to a real problem.
 
-When asked to assign a probability to "Very Unlikely" — a term they had just agreed meant less than 10 percent — their estimates ranged from 3 percent to 75 percent. Two-thirds violated the guideline they had just agreed to. Every participant honestly believed they had communicated clearly.
+When asked to assign a probability to "Very Unlikely," a term they had just agreed meant less than 10 percent, their estimates ranged from 3 percent to 75 percent. Two-thirds violated the guideline they had just agreed to. Every participant honestly believed they had communicated clearly.
 
 David Budescu ran this experiment with climate scientists. Richards Heuer replicated it with intelligence analysts at the CIA. The result was identical.
 
