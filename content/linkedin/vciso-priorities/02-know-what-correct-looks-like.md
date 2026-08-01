@@ -9,16 +9,12 @@ series: vciso-priorities
 series_order: 2
 ---
 
-If the vCISO's master problem is that nobody knows what they are measuring, the operational answer is straightforward. Encode the intended state and compare against it continuously.
+Adkins et al., in *Building Secure and Reliable Systems*, describe a mechanism that sounds simple and is not. Encode intended state as a set of packages with checksums. Continuously monitor actual filesystem state. Compare centrally. Repair deviations automatically.
 
-Adkins et al. make the case in *Building Secure and Reliable Systems*. Google's SRE book reinforces it. The mechanism: encode intended state as a set of packages with checksums, continuously monitor actual filesystem state, compare centrally, repair deviations automatically.
+One mechanism catches random bit flips, accidental misconfigurations, buggy deployments, and malicious tampering. It is monitoring, compliance verification, incident detection, and recovery validation in a single operational principle.
 
-One mechanism catches random bit flips, accidental misconfigurations, buggy deployments, and malicious tampering. It unifies monitoring, compliance verification, incident detection, and recovery validation into a single operational principle.
+If intended state includes the controls required by ISO 27001 Annex A, and the system continuously enforces intended state, the organization is continuously compliant by construction. No periodic audit required.
 
-The implications go beyond DevOps. If intended state is thoroughly encoded and continuously enforced, compliance becomes a side effect. If the intended state includes the controls required by ISO 27001 Annex A, and the system continuously enforces intended state, the system is continuously compliant by construction, not by periodic audit.
+The first responder's question, "what is normal?", is answered before the incident begins. Recovery is mechanical: restore to intended state.
 
-Incident response accelerates: the first responder's question, "what is normal?", is answered before the incident begins. Recovery becomes mechanical: restore to intended state.
-
-This is the vCISO's operational north star. In every engagement, ask: have you encoded what correct looks like? If not, that is the first technical work. Not deploying tools. Not writing policies. Encoding intended state.
-
-Because until you know what correct looks like, you cannot detect incorrect. And if you cannot detect incorrect, every other security investment is operating blind.
+In every engagement, ask whether the client has encoded what correct looks like. If not, that is the first work. Not deploying tools. Not writing policies. Encoding intended state.
