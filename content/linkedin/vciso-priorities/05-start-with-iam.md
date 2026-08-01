@@ -9,7 +9,7 @@ series: vciso-priorities
 series_order: 5
 ---
 
-Dylan Shields, in *AWS Security*, states the point directly. IAM misconfiguration is the root cause of most AWS security incidents. Every AWS service interaction flows through IAM. IAM is not one control among many. It is the control plane for all controls.
+Dylan Shields, in *AWS Security* (Manning, 2022), states the point directly. IAM misconfiguration is the root cause of most AWS security incidents. Every AWS service interaction flows through IAM. IAM is not one control among many. It is the control plane for all controls. Shields spent years building and securing cloud infrastructure. The book is not theory. It is field notes.
 
 The mechanism that scales IAM is attribute-based access control with tags. ABAC enables dynamic, self-maintaining policies that scale with infrastructure without requiring policy updates for every resource change. The tagged-resources pattern, grant access based on resource tags, and tagged-principals pattern, match caller and resource tags, operationalize least privilege at scale.
 
@@ -17,4 +17,4 @@ What I see in practice is often the reverse. Organizations spend money on ZTNA t
 
 AWS Config fills the gap CloudTrail leaves. CloudTrail tells you what API calls were made. Config tells you whether those calls changed the intended state of your resources. Same operational pattern as intended-state comparison, applied to cloud resources instead of servers.
 
-Before any other cloud security control, verify IAM is correctly configured. Verify the shared responsibility boundary is understood. Verify access policies scale with infrastructure growth.
+For a security manager, the IAM-first approach delivers immediate risk reduction with zero new spend. You are not buying anything. You are fixing what is already misconfigured. That is the kind of value the CFO notices: measurable security improvement that did not require a purchase order. Before any other cloud security control, verify IAM is correctly configured. Verify the shared responsibility boundary is understood. Verify access policies scale with infrastructure growth.
