@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="post-detail">
+    <div class="post-meta-bar">
+        <span class="status-badge {{ post.status }}">{{ post.status }}</span>
+        {% if post.platform %}<span class="platform-badge">{{ post.platform }}</span>{% endif %}
+        {% if post.scheduled_time %}<span class="time-badge">{{ post.scheduled_time }}</span>{% endif %}
+        <span class="date">{{ post.date }}</span>
+    </div>
+
+    <h1>{{ post.title }}</h1>
+
+    {% if post.tags %}
+    <div class="tags">
+        {% for tag in post.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="post-body">
+        {{ post._body_html | safe }}
+    </div>
+
+    <div class="post-actions">
+        <a href="/post/{{ post._filename }}/edit" class="btn">Edit</a>
+        <a href="/list" class="btn btn-secondary">&larr; All posts</a>
+    </div>
+</div>
+{% endblock %}

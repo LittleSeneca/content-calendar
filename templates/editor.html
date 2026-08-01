@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Edit: {{ post.title }}</h1>
+
+<form method="post" class="edit-form">
+    <div class="form-row">
+        <label>
+            Title
+            <input type="text" name="title" value="{{ post.title }}" required>
+        </label>
+        <label>
+            Date
+            <input type="date" name="date" value="{{ post.date }}" required>
+        </label>
+    </div>
+    <div class="form-row">
+        <label>
+            Platform
+            <select name="platform">
+                <option value="">—</option>
+                <option value="linkedin" {% if post.platform == 'linkedin' %}selected{% endif %}>LinkedIn</option>
+                <option value="twitter" {% if post.platform == 'twitter' %}selected{% endif %}>Twitter/X</option>
+                <option value="blog" {% if post.platform == 'blog' %}selected{% endif %}>Blog</option>
+                <option value="newsletter" {% if post.platform == 'newsletter' %}selected{% endif %}>Newsletter</option>
+            </select>
+        </label>
+        <label>
+            Status
+            <select name="status">
+                <option value="draft" {% if post.status == 'draft' %}selected{% endif %}>Draft</option>
+                <option value="ready" {% if post.status == 'ready' %}selected{% endif %}>Ready</option>
+                <option value="scheduled" {% if post.status == 'scheduled' %}selected{% endif %}>Scheduled</option>
+                <option value="published" {% if post.status == 'published' %}selected{% endif %}>Published</option>
+            </select>
+        </label>
+        <label>
+            Scheduled time
+            <input type="time" name="scheduled_time" value="{{ post.scheduled_time or '' }}">
+        </label>
+    </div>
+    <label>
+        Tags (comma-separated)
+        <input type="text" name="tags" value="{{ post.tags | join(', ') }}">
+    </label>
+    <label>
+        Body (Markdown)
+        <textarea name="body" rows="25">{{ post._body }}</textarea>
+    </label>
+    <div class="form-actions">
+        <button type="submit" class="btn">Save</button>
+        <a href="/post/{{ post._filename }}" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>
+{% endblock %}

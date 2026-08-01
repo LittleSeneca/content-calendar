@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>All Posts</h1>
+
+<div class="filters">
+    <form method="get" class="filter-form">
+        <select name="platform" onchange="this.form.submit()">
+            <option value="">All platforms</option>
+            {% for p in platforms %}
+            <option value="{{ p }}" {% if current_platform == p %}selected{% endif %}>{{ p }}</option>
+            {% endfor %}
+        </select>
+        <select name="status" onchange="this.form.submit()">
+            <option value="">All statuses</option>
+            {% for s in statuses %}
+            <option value="{{ s }}" {% if current_status == s %}selected{% endif %}>{{ s }}</option>
+            {% endfor %}
+        </select>
+    </form>
+</div>
+
+{% if posts %}
+<table class="post-table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Title</th>
+            <th>Platform</th>
+            <th>Status</th>
+            <th>Tags</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for post in posts %}
+        <tr>
+            <td>{{ post.date }}</td>
+            <td><a href="/post/{{ post._filename }}">{{ post.title }}</a></td>
+            <td><span class="platform-badge">{{ post.platform }}</span></td>
+            <td><span class="status-badge {{ post.status }}">{{ post.status }}</span></td>
+            <td>{% for tag in post.tags %}<span class="tag">{{ tag }}</span>{% endfor %}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p class="empty-state">No posts yet. Create one via the API or drop a markdown file in the <code>content/</code> directory.</p>
+{% endif %}
+{% endblock %}

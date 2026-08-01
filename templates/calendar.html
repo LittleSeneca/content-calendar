@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="calendar-header">
+    <a href="{{ nav.prev }}" class="nav-arrow">&larr;</a>
+    <h1>{{ month_name }} {{ year }}</h1>
+    <a href="{{ nav.next }}" class="nav-arrow">&rarr;</a>
+</div>
+
+<table class="calendar">
+    <thead>
+        <tr>
+            <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for week in weeks %}
+        <tr>
+            {% for d in week %}
+            <td class="{% if d.today %}today{% endif %} {% if d.day == 0 %}empty{% endif %}">
+                {% if d.day != 0 %}
+                <div class="day-number">{{ d.day }}</div>
+                <div class="day-posts">
+                    {% for post in d.posts %}
+                    <a href="/post/{{ post._filename }}" class="post-chip {{ post.status }}" title="{{ post.title }}">
+                        {% if post.scheduled_time %}<span class="time">{{ post.scheduled_time }}</span>{% endif %}
+                        <span class="chip-label">{{ post.title }}</span>
+                        {% if post.platform %}<span class="platform-badge">{{ post.platform }}</span>{% endif %}
+                    </a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<div class="calendar-footer">
+    <a href="/list" class="btn">View all posts &rarr;</a>
+</div>
+{% endblock %}
