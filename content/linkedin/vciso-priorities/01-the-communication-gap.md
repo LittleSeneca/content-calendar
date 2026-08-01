@@ -9,12 +9,16 @@ series: vciso-priorities
 series_order: 1
 ---
 
-Douglas Hubbard and Richard Seiersen, in *How to Measure Anything in Cybersecurity Risk* (Wiley, 2016), call it "the illusion of communication." Hubbard is a decision scientist who wrote the book on measuring intangibles. Seiersen is a former CISO. The research behind the claim spans two independent studies.
+Give a group of intelligent professionals a set of words with agreed-upon definitions. "Very Unlikely" means less than 10 percent probability. Everyone understands. Now ask them to apply those words to a real problem.
 
-Two independent research groups. David Budescu gave climate scientists verbal probability labels with explicit numerical definitions. "Very Unlikely" meant less than 10 percent probability. The scientists' interpretations ranged from 3 percent to 75 percent. Two-thirds of responses violated the guideline. Richards Heuer replicated the finding with intelligence analysts at the CIA. Same result.
+Their answers will range from 3 percent to 75 percent. Two-thirds of them will violate the guideline they just agreed to. And every single one of them will believe they communicated clearly.
 
-When a board sees "medium risk," they hear one thing. The analyst meant another. The engineer thinks the server is patched. The patch failed three weeks ago. The SOC analyst triaged the alert. It is buried in a queue of ten thousand.
+David Budescu ran this experiment with climate scientists. Richards Heuer replicated it with intelligence analysts at the CIA. Same words, same definitions, same result.
+
+Douglas Hubbard and Richard Seiersen, in *How to Measure Anything in Cybersecurity Risk* (Wiley, 2016), call this "the illusion of communication." Hubbard is a decision scientist who wrote the book on measuring intangibles. Seiersen is a former CISO.
+
+Now apply this to your organization. When the board sees "medium risk," they hear one thing. The analyst meant another. The engineer thinks the server is patched. The patch failed three weeks ago. The SOC analyst triaged the alert. It is buried in a queue of ten thousand.
 
 For a security manager or vCISO walking into a new engagement, this changes the first conversation. Do not lead with the tool stack. Do not lead with compliance certificates. Ask what the client believes is true about their security posture, and how they know.
 
-What you are delivering in that moment is not a gap analysis or a risk assessment. It is the ability to see the distance between belief and reality. No tool vendor sells that, and no framework requires it.
+You are delivering the ability to see the distance between belief and reality. No tool vendor sells that, and no framework requires it.
