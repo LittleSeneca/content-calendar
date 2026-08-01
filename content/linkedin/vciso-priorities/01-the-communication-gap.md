@@ -13,7 +13,7 @@ Give a group of intelligent professionals a set of words with agreed-upon defini
 
 Their answers will range from 3 percent to 75 percent. Two-thirds of them will violate the guideline they just agreed to. And every participant will honestly believe they communicated clearly.
 
-David Budescu ran this experiment with climate scientists. Richards Heuer replicated it with intelligence analysts at the CIA. Same words, same definitions, same result.
+David Budescu ran this experiment with climate scientists. Richards Heuer replicated it with intelligence analysts at the CIA. The result was identical.
 
 Douglas Hubbard and Richard Seiersen, in *How to Measure Anything in Cybersecurity Risk* (Wiley, 2016), call this "the illusion of communication." Hubbard's work on applied information economics established the methodology for measuring intangibles across business, government, and military contexts. Seiersen saw it play out across organizations as a practicing CISO.
 
